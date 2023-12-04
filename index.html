@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/response.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Elba Vendas</title>
+</head>
+<body>
+    <header>
+        <h1>Elba Vendas</h1>
+        <nav id="menu">
+          <a href="#"><i class="fas fa-home"></i>
+            Página Inicial</a>
+          <a href="#">Produtos</a>
+          <a href="#">Contato 16 99384-6437 </a>
+        </nav>
+    </header>
+    <section>
+        <h2>Bem-vindo ao nosso site de vendas!</h2>
+        <p>Aqui você encontrará produtos incríveis para você ou para presentear.</p>
+    </section>
+    <section id="products">
+        <div class="product">
+            <img src="produto1.jpg" alt="Produto 1">
+            <h3>Nome do Produto 1</h3>
+            <p>Descrição do Produto 1.</p>
+            <p>Preço: R$50,00</p>
+            <button onclick="addToCart(1)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product">
+            <img src="produto2.jpg" alt="Produto 2">
+            <h3>Nome do Produto 2</h3>
+            <p>Descrição do Produto 2.</p>
+            <p>Preço: R$50,00</p>
+            <button onclick="addToCart(2)">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+    <!-- Ícone do carrinho adicionado dinamicamente pelo script -->
+    <div id="cart-icon-container"></div>
+
+  <section id="cart">
+        <h2>Carrinho de Compras</h2>
+        <ul id="cart-items">
+            <!-- Itens do carrinho serão exibidos aqui dinamicamente -->
+        </ul>
+  </section>
+
+
+    <footer>
+        <p>&copy; Elba Theodoro Vendas Online.</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
