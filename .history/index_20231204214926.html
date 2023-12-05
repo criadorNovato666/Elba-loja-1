@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +7,17 @@
     <link rel="stylesheet" href="css/response.css">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css">
-
-    <script src="js/script.js"></script>
-
+    
     <title>Elba Vendas</title>
 </head>
-
 <body>
     <header>
         <h1>Elba Vendas</h1>
         <nav id="menu">
-            <a href="./">Página Inicial</a>
-            <a href="#products">Produtos</a>
-            <a href="#contato">Contato</a>
+            <a href="#"><i class="fas fa-home"></i>
+            Página Inicial</a>
+            <a href="#">Produtos</a>
+          <a href="#contato">Contato</a>
         </nav>
     </header>
     <section>
@@ -46,50 +43,40 @@
 
     <!-- Ícone do carrinho adicionado dinamicamente pelo script -->
 
-    <svg class="cart-icon" width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round"
-        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <svg class="cart-icon" width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path d="M15.586 17.586a2 2 0 1 1 2.828 2.828 2 2 0 0 1-2.828-2.828Z"></path>
         <path d="M8.414 20.414a2 2 0 1 0-2.828-2.828 2 2 0 0 0 2.828 2.828Z"></path>
         <path d="m7 13-2.293 2.293c-.63.63-.184 1.707.707 1.707H17"></path>
         <path d="M5.4 5H21l-4 8H7L5.4 5Z"></path>
         <path d="M3 3h2l.4 2"></path>
-    </svg>
+      </svg>
 
-    <section id="cart">
+  <section id="cart">
         <h2>Carrinho de Compras</h2>
         <ul id="cart-items">
             <!-- Itens do carrinho serão exibidos aqui dinamicamente -->
         </ul>
-    </section>
+  </section>
 
 
     <footer>
         <div id="contato">
             <!-- Contato por Telefone-->
-            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M3.586 3.586A2 2 0 0 0 3 5v1c0 8.284 6.716 15 15 15h1a2 2 0 0 0 2-2v-3.279a1 1 0 0 0-.684-.949l-4.493-1.498a1 1 0 0 0-1.21.502l-1.13 2.257a11.042 11.042 0 0 1-5.516-5.516l2.257-1.13a1 1 0 0 0 .502-1.21L9.228 3.684A1 1 0 0 0 8.28 3H5a2 2 0 0 0-1.414.586Z">
-                </path>
+            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.586 3.586A2 2 0 0 0 3 5v1c0 8.284 6.716 15 15 15h1a2 2 0 0 0 2-2v-3.279a1 1 0 0 0-.684-.949l-4.493-1.498a1 1 0 0 0-1.21.502l-1.13 2.257a11.042 11.042 0 0 1-5.516-5.516l2.257-1.13a1 1 0 0 0 .502-1.21L9.228 3.684A1 1 0 0 0 8.28 3H5a2 2 0 0 0-1.414.586Z"></path>
             </svg>
-            <p>Tel : XX XXXXX-XXXX</p>
+            <p style="padding-left: 2px;">Tel : XX XXXXX-XXXX</p>
 
             <!-- Contato por Email-->
-            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2Z"></path>
-                <path
-                    d="M20 13h-2.586a1 1 0 0 0-.707.293l-2.414 2.414a1 1 0 0 1-.707.293h-3.172a1 1 0 0 1-.707-.293l-2.414-2.414A1 1 0 0 0 6.586 13H4">
-                </path>
+                <path d="M20 13h-2.586a1 1 0 0 0-.707.293l-2.414 2.414a1 1 0 0 1-.707.293h-3.172a1 1 0 0 1-.707-.293l-2.414-2.414A1 1 0 0 0 6.586 13H4"></path>
             </svg>
             <p>Email : exemple@domain.com</p>
 
             <!-- Contato por Comentarios-->
-            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M7 8h10M7 12h4m1 8-4-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3l-4 4Z">
-                </path>
+            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 8h10M7 12h4m1 8-4-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3l-4 4Z"></path>
             </svg>
             <p>Deixe seus comentários ou perguntas abaixo:</p>
 
@@ -101,6 +88,7 @@
 
         <p style="padding-top: 10px;">&copy; Elba Theodoro Vendas Online.</p>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>
+
