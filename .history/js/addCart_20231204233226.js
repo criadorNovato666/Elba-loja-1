@@ -19,9 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     console.log("Elemento com ID 'cart-items' não encontrado.");
                 }
             }
-            window.location.href = 'addCart.html';
-        });
-    } else {
-        console.log("Elemento com ID 'cart-icon' não encontrado.");
+        })
     }
-});
+})

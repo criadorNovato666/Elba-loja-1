@@ -12,16 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     cartItems.innerHTML = '';
 
                     itemsArray.forEach(item => {
-                        const newItem = document.createElement('li');
-                        newItem.textContent = item;
+                        const new
                     });
-                }else {
-                    console.log("Elemento com ID 'cart-items' não encontrado.");
                 }
             }
-            window.location.href = 'addCart.html';
-        });
-    } else {
-        console.log("Elemento com ID 'cart-icon' não encontrado.");
+        })
     }
-});
+})

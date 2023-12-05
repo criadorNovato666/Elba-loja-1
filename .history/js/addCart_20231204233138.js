@@ -15,13 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         const newItem = document.createElement('li');
                         newItem.textContent = item;
                     });
-                }else {
-                    console.log("Elemento com ID 'cart-items' não encontrado.");
                 }
             }
-            window.location.href = 'addCart.html';
-        });
-    } else {
-        console.log("Elemento com ID 'cart-icon' não encontrado.");
+        })
     }
-});
+})

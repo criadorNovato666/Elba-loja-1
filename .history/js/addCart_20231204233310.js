@@ -20,8 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             }
             window.location.href = 'addCart.html';
-        });
-    } else {
-        console.log("Elemento com ID 'cart-icon' não encontrado.");
+        })
     }
-});
+})
