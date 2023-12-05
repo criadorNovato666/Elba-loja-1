@@ -17,24 +17,7 @@
   /* Cart */
   #cart {
     flex-direction: column;
-    align-items: center;
-  }
-
-  .product {
-    width: 100%;
-    margin-bottom: 10px;
+    
   }
 }
 
-@media (max-width: 438px) {
-  /* Cart */
-  #cart {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .profuct {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-}

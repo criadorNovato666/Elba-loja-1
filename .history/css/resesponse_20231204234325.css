@@ -24,6 +24,11 @@
     width: 100%;
     margin-bottom: 10px;
   }
+
+  .icon-sgv {
+    flex-direction: row;
+    align-items: start;
+  }
 }
 
 @media (max-width: 438px) {

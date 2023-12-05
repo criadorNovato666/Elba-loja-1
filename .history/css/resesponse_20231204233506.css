@@ -1,0 +1,14 @@
+/* Responsive CSS */
+@media (max-width: 768px) {
+  /* Header */
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    margin-top: 10px;
+    
+  }
+}
+
